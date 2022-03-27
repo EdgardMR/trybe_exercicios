@@ -1,0 +1,8 @@
+internet
+unix
+bash
+logica
+matematica
+python
+javaScript
+node

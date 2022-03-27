@@ -1,0 +1,1 @@
+/home/edgard/Área de Trabalho/trybe_turma22/trybe_exercicios/fundamentos/bloco_01_unixEbash/dia-03-unix-bash/parte-01/unix_tests/backup2
