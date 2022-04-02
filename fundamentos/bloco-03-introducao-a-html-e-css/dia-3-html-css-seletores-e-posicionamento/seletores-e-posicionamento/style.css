@@ -1,0 +1,25 @@
+* {
+    /* border: 1px solid red; */
+}
+
+p, h1 {
+    text-align: center;
+}
+
+ol li:hover {
+    display: inline-block;
+    text-decoration:underline;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+    background-color: rgb(174, 231, 174);
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+
+li {
+    margin: 10px;
+}
+
+ol, ul {
+    list-style: none;
+    
+}
