@@ -1,0 +1,4 @@
+div:hover {
+    border: solid 5px black;
+    transition: all 0.5s ease-out;
+}
