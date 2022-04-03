@@ -1,0 +1,59 @@
+ol {
+    background-color: yellow;
+}
+.font-color-green {
+    color: green;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    color: red;
+}
+
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 700;
+}
+
+ul.programmingLanguage li.color-blue {
+
+    color: blue;
+}
+
+li span.pink {
+    color: rgb(233, 113, 133);
+}
+
+ul.programmerAssistant a:hover {
+    
+    transition: all 0.5s ease-out;
+    font-size: 1.4em;
+    font-weight: 900;
+    
+}
+
+a.sof:hover {
+    color: orange;
+}
+
+a.w3s:hover, a.trybe:hover {
+    color: green;
+}
+
+a.mdn:hover {
+    color: black;
+}
+a.devD:hover {
+    color: yellow;
+}
