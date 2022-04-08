@@ -6,7 +6,7 @@
 
 // ###################################################################################################
 
-// Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+// 2 - Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 
 // for (var i = 0; i < numbers.length; i += 1) {
 //     sum += numbers[i]
@@ -19,7 +19,7 @@
 // console.log(sum);
 // ###################################################################################################
 
-// Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
+// 3 - Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 
 
 // for (var valor of numbers) {
@@ -32,7 +32,7 @@
 
 // ###################################################################################################
 
-// Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
+// 4 - Com o mesmo código do exercício anterior, caso o valor final seja maior que 20, imprima a mensagem: "valor maior que 20". Caso não seja, imprima a mensagem: "valor menor ou igual a 20";
 
 // for (var valor of numbers) {
 //     sum += valor;
@@ -50,7 +50,7 @@
 
 // ###################################################################################################
 
-// Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+// 5- Utilizando for , descubra qual o maior valor contido no array e imprima-o;
 
 // let higherNumber = 0;
 
@@ -63,14 +63,29 @@
 // console.log(higherNumber)
 
 
+
+// ###################################################################################################
+
+
+
+// 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+
+// let cont = 0;
+
+// for (var index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 != 0) {
+//         cont++
+//     } else {
+//         console.log("nenhum valor ímpar encontrado")
+//     }
+// }
+
+// console.log(cont)
+
+
+// ###################################################################################################
+
+
+
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-let higherNumber = 0;
-
-for (var number of numbers) {
-    if (number > higherNumber) {
-        higherNumber = number
-    }
-}
-
-console.log(higherNumber)
